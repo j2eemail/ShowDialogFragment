@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="fragment_dialog_layout" type="id" />
+    <item name="fragment_dialog_title_layout" type="id" />
+    <item name="fragment_dialog_title" type="id" />
+    <item name="fragment_dialog_close" type="id" />
+    <item name="fragment_dialog_content_layout" type="id" />
+    <item name="fragment_dialog_content" type="id" />
+    <item name="fragment_dialog_confirm" type="id" />
+    <item name="fragment_dialog_cancel" type="id" />
+
+    <dimen name="fragment_dialog_width">240dp</dimen>
+    <dimen name="fragment_dialog_title_height">40dp</dimen>
+    <dimen name="fragment_dialog_margin_5">5dp</dimen>
+    <dimen name="fragment_dialog_margin_10">10dp</dimen>
+    <dimen name="fragment_dialog_btn_height">40dp</dimen>
+
+    <color name="fragment_dialog_bg">#7FB80E</color>
+    <color name="fragment_dialog_title_bg">#FE6813</color>
+    <color name="fragment_dialog_txt">#FFFFFF</color>
+    <color name="fragment_dialog_btn_unselected">#FE6813</color>
+    <color name="fragment_dialog_btn_selected">#ffd400</color>
+
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+
+    <style name="fragmentDialogAnim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/fragment_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/fragment_dialog_out</item>
+    </style>
+
+</resources>
